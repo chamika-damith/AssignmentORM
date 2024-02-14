@@ -50,10 +50,12 @@ public class Main {
 
         Author author = new Author();
         author.setName("chamika");
+        author.setCountry("Sri Lanka");
         author.setBookList(bookList);
 
         Author author1 = new Author();
         author1.setName("damith");
+        author1.setCountry("USA");
         author1.setBookList(bookList);
 
         book.setAuthor(author);
