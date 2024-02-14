@@ -126,9 +126,9 @@ public class Main {
 
     }
 
-    private static void deleteAuthor(long authorId){
-        Session session = FactoryConfiguration.getInstance().getSession();
-        Author author = session.find(Author.class, authorId);
-        session.delete(author);
-    }
+//    private static void deleteAuthor(long authorId){
+//        Session session = FactoryConfiguration.getInstance().getSession();
+//        Author author = session.find(Author.class, authorId);
+//        session.delete(author);
+//    }
 }
